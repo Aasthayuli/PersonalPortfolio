@@ -500,13 +500,18 @@ nav ul li a i {
     .bold-span {
       color: #d4adfc;
     }
-    .title-msg {
+    .title-msg2 {
+      color: #fff;
       line-height: 2rem;
+      font-size: 18px;
+    }
+    .title-msg3 {
+      color: #d4adfc;
       font-size: 18px;
     }
     a {
       text-decoration: none;
-      color: #d4adfc;
+      color: #fff;
     }
   }
 }
