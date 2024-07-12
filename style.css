@@ -3,17 +3,17 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #000;
 }
 .container {
   height: 120vh;
   width: 100%;
-  background-color: #000;
 }
 /*Sidemenu-bar_________________________________________________________________________________________________________________________________________________________________________________________________________________*/
 
 .box {
   width: 200px;
-  height: 100vh;
+  height: 100%;
   background-color: #000;
   box-shadow: 0 0 0.5rem rgba(126, 95, 100, 0.9);
   position: fixed;
@@ -62,7 +62,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 0.5rem rgba(100, 75, 79, 0.9);
+  box-shadow: 0 0 1rem rgba(100, 75, 79, 0.9);
 }
 .box .logo .pic {
   border: 3px solid #d4adfc;
@@ -89,7 +89,6 @@ nav ul li {
 }
 nav ul li:hover {
   font-weight: bold;
-  background-color: #808080;
   border-radius: 8px;
 }
 nav ul li a {
@@ -99,6 +98,9 @@ nav ul li a {
   display: block;
   text-decoration: none;
 }
+nav ul li a:hover{
+  color: #d4adfc;
+}
 nav ul li a i {
   color: #d4adfc;
   font-size: 20px;
@@ -106,7 +108,9 @@ nav ul li a i {
 }
 .social-media {
   height: 50px;
-  margin-top: 100px;
+  position: fixed;
+  left: 50px;
+  bottom: 10px;
   padding: 10px;
   text-align: center;
 }
@@ -128,14 +132,15 @@ nav ul li a i {
   display: flex;
 }
 .flex-box {
-  margin-top: 200px;
-  margin-left: 100px;
+  width: 100%;
+  margin: 100px;
   color: #fff;
 }
 .intro {
   width: fit-content;
   color: #d4adfc;
   font-size: 50px;
+  margin: 5px;
 }
 .intro:hover {
   border-radius: 10px;
@@ -165,6 +170,7 @@ nav ul li a i {
 .msg {
   padding: 10px;
   font-size: 25px;
+  margin: 5px;
 }
 .msg-div:hover {
   border-radius: 10px;
@@ -216,11 +222,14 @@ nav ul li a i {
 /*About_________________________________________________________________________________________________________________________________________________________________________________________________________________*/
 
 .about {
+  margin: 100px;
   background-color: #000;
   display: flex;
 }
 .about-content {
-  width: 100%;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
 }
 .about-info {
   margin-top: 30px;
@@ -230,14 +239,16 @@ nav ul li a i {
   align-items: center;
 }
 .about-title {
-  margin: 30px 5px 0px 5px;
+  margin: 30px 5px 30px 5px;
   box-shadow: 0 0 2rem rgba(183, 170, 172, 0.99);
   color: #d4adfc;
   height: 100px;
   width: 100%;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   font-size: 50px;
-  padding: 10px 0 10px 30px;
 }
 .about-title:hover {
   color: #fff;
@@ -297,11 +308,17 @@ nav ul li a i {
 /*Projects_______________________________________________________________________________________________________________________________________________________________________________________*/
 
 .project-info {
-  height: 1000px;
-  margin: 30px;
+  height: 100vh;
+  margin: 100px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
+}
+.pr{
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .pr-content {
   box-shadow: 0 0 1rem rgba(183, 170, 172, 0.99);
@@ -329,8 +346,8 @@ nav ul li a i {
     color: #d4adfc;
   }
 }
-.pr-para {
-  padding: 20px;
+.pr-content .pr-para {
+  padding: 25px;
 }
 .bold-span {
   color: #d4adfc;
@@ -360,6 +377,7 @@ nav ul li a i {
     h4 {
       border-radius: 5px;
       box-shadow: 0 0 1rem rgba(183, 170, 172, 0.99);
+
       padding: 10px;
       text-align: center;
       color: #d4adfc;
@@ -368,7 +386,7 @@ nav ul li a i {
     }
   }
   .img-div {
-    margin: 30px;
+    margin: 50px;
   }
   img {
     height: 100px;
@@ -497,6 +515,9 @@ nav ul li a i {
       height: 300px;
       width: 100%;
     }
+    .pr-para{
+      padding-top:10px ;
+    }
     .bold-span {
       color: #d4adfc;
     }
@@ -531,6 +552,7 @@ nav ul li a i {
     width: 500px;
     .bold-span {
       color: #d4adfc;
+      margin: 20px;
     }
     .title-msg {
       line-height: 2rem;
@@ -539,14 +561,17 @@ nav ul li a i {
     a {
       text-decoration: none;
       color: #d4adfc;
+    
     }
     ul {
-      line-height: 2rem;
+      padding: 5px;
+      line-height: 1.5rem;
       color: #d4adfc;
     }
     li {
       line-height: 2rem;
       color: #fff;
+  
     }
   }
 }
@@ -564,6 +589,7 @@ nav ul li a i {
 .github,
 .linkedin {
   padding: 20px;
+  margin: 5px;
   i {
     color: #d4adfc;
     font-size: 40px;
