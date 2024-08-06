@@ -23,6 +23,3 @@ function scrollToSection(id) {
 btn.addEventListener("click", function () {
   btn.onclick = scrollToSection("#contact-id");
 });
-if (document.referrer !== "") {
-  window.location.href = "https://www.example.net"; // redirect to a different page
-}
