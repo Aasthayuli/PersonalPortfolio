@@ -139,12 +139,11 @@ nav ul li a i {
 .intro {
   width: fit-content;
   color: #d4adfc;
-  font-size: 50px;
+  font-size: 80px;
   margin: 5px;
 }
 .intro:hover {
-  border-radius: 10px;
-  box-shadow: 0 0 0.5rem rgba(183, 170, 172, 0.99);
+  color: #fff;
 }
 .sd {
   line-height: 4rem;
@@ -268,7 +267,7 @@ nav ul li a i {
 } */
 .info-div2 {
   color: #fff;
-  font-size: 20px;
+  font-size: 22px;
   margin-top: 50px;
   padding: 30px;
   border-radius: 10px;
@@ -294,11 +293,11 @@ nav ul li a i {
 .info-div1:hover {
   box-shadow: 0 0 0.5rem rgba(183, 170, 172, 0.99);
 }
-.info-div h3 {
+.info-div3 h3 {
   text-align: left;
   color: #d4adfc;
   font-weight: bold;
-  font-size: 42px;
+  font-size: 35px;
   margin-bottom: 20px;
 }
 .scl-clg {
@@ -384,8 +383,6 @@ nav ul li a i {
     width: 100%;
     h4 {
       border-radius: 5px;
-      box-shadow: 0 0 1rem rgba(183, 170, 172, 0.99);
-
       padding: 10px;
       text-align: center;
       color: #d4adfc;
@@ -418,7 +415,6 @@ nav ul li a i {
     width: 100%;
     h4 {
       border-radius: 5px;
-      box-shadow: 0 0 1rem rgba(183, 170, 172, 0.99);
       padding: 10px;
       text-align: center;
       color: #d4adfc;
@@ -451,7 +447,6 @@ nav ul li a i {
     width: 100%;
     h4 {
       border-radius: 5px;
-      box-shadow: 0 0 1rem rgba(183, 170, 172, 0.99);
       padding: 10px;
       text-align: center;
       color: #d4adfc;
@@ -484,7 +479,6 @@ nav ul li a i {
     width: 100%;
     h4 {
       border-radius: 5px;
-      box-shadow: 0 0 1rem rgba(183, 170, 172, 0.99);
       padding: 10px;
       text-align: center;
       color: #d4adfc;
