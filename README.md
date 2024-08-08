@@ -40,4 +40,4 @@ This repository is licensed under the [MIT License]().
 
 ## Contact
 
-If you have any questions or would like to get in touch, please feel free to contact me at Your [Email Address]() or [Your Website]().
+If you have any questions or would like to get in touch, please feel free to contact me at my [Email]() or [my Website]().
